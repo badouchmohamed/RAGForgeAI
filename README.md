@@ -71,13 +71,15 @@ bash
 git clone https://github.com/badouchmohamed/RAGForgeAI.git
 cd spring-boot-rag-chatbot
 
-3. Create your .env file
-env
+2. Create your .env file
+
 GEMINI_API_KEY=your-google-gemini-api-key
+
 PINECONE_API_KEY=your-pinecone-api-key
+
 PINECONE_INDEX=your-index-name
 
-4. Run the application
+3. Run the application
 bash
 mvn spring-boot:run
 
